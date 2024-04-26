@@ -33,4 +33,9 @@ class PersonVo {
       'company': company,
     };
   }
+
+  @override
+  String toString() {
+    return 'PersonVo{personId: $personId, name: $name, hp: $hp, company: $company}';
+  }
 }
